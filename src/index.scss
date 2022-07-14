@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+ 
+}
+body{
+  position: relative;
+}
+
+#tsparticles{
+  width: 100%;
+  height: 100vh;
+  background: url("./img/1912160.jpg");
+  background-position: center;
+  animation: aliceTumbling infinite 20000ms linear;
+}
+
+@keyframes aliceTumbling {
+  0% {
+    background: url("./img/1912160.jpg");
+  }
+  39% {
+    background: url("./img/8066810.jpg");
+  }
+  70% {
+    background: url("./img/photo-1501503069356-3c6b82a17d89.jpeg" ) ;
+  }
+
+}
+.PartPosition{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.459);
+}
