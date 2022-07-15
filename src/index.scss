@@ -4,7 +4,7 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
- 
+ color: white;
 }
 body{
   position: relative;
@@ -51,4 +51,10 @@ body{
   position: fixed;
   z-index: 100000000;
   background: #121661 !important;
+}
+.mycontainer{
+
+  width: 80%;
+  margin: auto;
+  margin-top: 15%;
 }

@@ -1,11 +1,14 @@
 import React from 'react';
-import Navbar from '../Navbar/Navbar';
+
 
 const PartPosition = () => {
   return (
-    <div className='PartPosition'>
-        <Navbar />
-    </div>
+    
+    <header className='PartPosition'>
+      <div className="mycontainer">
+      <h1>Hello world</h1>
+      </div>
+    </header>
   )
 }
 
